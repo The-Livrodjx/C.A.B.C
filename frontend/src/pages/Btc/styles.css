@@ -1,0 +1,38 @@
+.btc-page {
+    width: 100%;
+    min-height: 650px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btc-content {
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+
+.btc-information {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(295px, 1fr));
+    grid-gap: 0px;
+    padding-inline-start: 0;
+    padding: 100px 200px;
+}
+
+.btc-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    min-height: 200px;
+}
+
+.btc-card h2 {
+    padding-bottom: 10px;
+}

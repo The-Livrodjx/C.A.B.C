@@ -1,0 +1,88 @@
+:root {
+    --primary-color: #707070;
+    --text-color: #888888;
+    --btn-border: #00000029;
+}
+
+.product-page {
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-content {
+    position: relative;
+    margin-top: 150px;
+    width: 100%;
+    min-height: 625px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-list {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(295px, 1fr));
+    grid-gap: 0px;
+    padding-inline-start: 0;
+    padding: 100px 200px;
+}
+
+.product-name {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+	list-style: none;
+	padding: 40px;
+	color: #222;
+	text-align: center;
+	border-radius: 20px;
+	position: relative;
+}
+
+.card-title {
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--text-color);
+    margin: 16px 0;
+}
+
+.card-subtitle {
+    text-align: left;
+    width: 250px;
+    font-size: 12px;
+    font-weight: 400;
+    margin: 6px 0;
+    line-height: 1.3em;
+    margin-bottom: 5px;
+    color: var(--text-color);
+}
+
+.card span {
+    font-size: 12px;
+    color: var(--text-color);
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+span.newPrice {
+    font-weight: 600;
+    font-size: 15px;
+}
+
+button.buy-btn {
+    width: 200px;
+    height: 30px;
+    color: var(--text-color);
+    border: 2px solid var(--btn-border);
+    border-radius: 3px;
+    background-color: #fff;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
